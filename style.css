@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 600px;
+    height: 800px;
+    background-color: #333;
+    border: 1px solid #03a9f4;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #03a9f4;
+}
+
+h2 {
+    color: #03a9f4;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+}
+
+button {
+    background-color: #03a9f4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #0390d4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #333;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #03a9f4;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #424242;
+}
+
+tr:nth-child(odd) {
+    background-color: #333;
+}
+
+.notification {
+    background-color: #f44336;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
